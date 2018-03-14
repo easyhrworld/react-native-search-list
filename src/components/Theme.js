@@ -21,7 +21,7 @@ export default {
     primaryLight: '#171a23',
 
     // secondary: '',
-    maskColor: 'rgba(0, 0, 0, 0.1)'
+    maskColor: 'rgba(0, 0, 0, 0)'
   },
   size: {
     sectionHeaderHeight: 24,
