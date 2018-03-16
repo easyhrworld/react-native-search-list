@@ -422,7 +422,7 @@ export default class SearchList extends Component {
             keyboardDismissMode='on-drag'
             keyboardShouldPersistTaps='always'
             showsVerticalScrollIndicator
-
+            refreshControl={this.props.refreshControl}
             renderRow={this.props.renderRow || this._renderRow.bind(this)}
             renderSeparator={this.props.renderSeparator || this._renderSeparator.bind(this)}
             renderSectionHeader={this.props.renderSectionHeader || this._renderSectionHeader.bind(this)}
