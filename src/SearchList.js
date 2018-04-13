@@ -364,6 +364,7 @@ export default class SearchList extends Component {
           flex: 1,
           backgroundColor: this.props.searchListBackgroundColor
         }]}>
+          {this.props.visibleSearch ? 
           <SearchBar
             placeholder={this.props.searchInputPlaceholder ? this.props.searchInputPlaceholder : ''}
 
@@ -382,7 +383,7 @@ export default class SearchList extends Component {
             searchInputPlaceholderColor={this.props.searchInputPlaceholderColor}
             searchInputTextColor={this.props.searchInputTextColor}
             searchInputTextColorActive={this.props.searchInputTextColorActive}
-            ref='searchBar' />
+            ref='searchBar' />: null}
           {this._renderStickHeader()}
 
           <View
