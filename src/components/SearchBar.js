@@ -25,7 +25,7 @@ export default class SearchBar extends Component {
 
     onFocus: PropTypes.func, // search input focused callback
     onBlur: PropTypes.func, // search input blured callback
-    visibleSearch: PropTypes.bool // search bar visible
+    visibleSearch: PropTypes.bool, // search bar visible
 
     onClickCancel: PropTypes.func, // the search cancel button clicked
     cancelTitle: PropTypes.string, // title for the search cancel button
@@ -49,7 +49,7 @@ export default class SearchBar extends Component {
     searchInputPlaceholderColor: '#979797',
     searchInputTextColor: '#171a23',
     searchInputTextColorActive: '#FFF',
-
+    visibleSearch: true,
     searchBarBackgroundColor: '#171a23',
 
     cancelTextColor: 'white',
